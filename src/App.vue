@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='https://vaporic.github.io/platzimusic/assets/logo.png')
+    img(src='https://vaporic.github.io/platzimusic/src/assets/logo.png')
     h1 PlatziMusic
     select(v-model="selectedCountry")
       option(v-for="country in countries" :value="country.value") {{country.name}}
